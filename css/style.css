@@ -1049,3 +1049,17 @@ img {
     width: calc((100% - 24px) / 2);
   }
 }
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+  .info-list {
+    gap: 24px;
+  }
+  .info-item {
+    width: calc((100% - 72px) / 4);
+  }
+  .section-info-icon {
+    display: flex;
+  }
+}
