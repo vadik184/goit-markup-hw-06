@@ -495,16 +495,16 @@ img {
   margin-bottom: 72px;
   justify-content: center;
 }
-/* .main-footer-container {
-  display: block;
-} */
 .main-footer-container {
+  display: block;
+}
+/* .main-footer-container {
   display: flex;
   flex-wrap: wrap;
   gap: 72px;
   margin-bottom: 72px;
   justify-content: center;
-}
+} */
 
 .link {
   text-decoration: none;
@@ -537,7 +537,6 @@ img {
   display: block;
   width: 208px;
   height: 80px;
-  align-items: center;
 }
 .footer-soc-text {
   display: block;
@@ -1037,9 +1036,6 @@ img {
   }
   .team-list {
     flex-wrap: wrap;
-  }
-  .main-footer-container {
-    flex-direction: column;
   }
 }
 
