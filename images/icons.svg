@@ -75,5 +75,11 @@
 <symbol id="icon-send" viewBox="0 0 38 32">
 <path d="M38.4 0l-38.4 18 12.272 3.788 18.928-14.788-14.397 16.186 0.012 0.004-0.014-0.004v8.814l6.882-6.691 8.718 2.691 6-28z"></path>
 </symbol>
+<symbol id="icon-header-menu-burger" viewBox="0 0 47 32">
+<path fill="#e5e5e5" style="fill: var(--color1, #e5e5e5)" d="M0 0h46.545v32h-46.545v-32z"></path>
+<path fill="#fff" style="fill: var(--color2, #fff)" d="M-552.727-34.909h622.545v7165.091h-622.545v-7165.091z"></path>
+<path fill="#fff" style="fill: var(--color2, #fff)" d="M-552.727-34.909h622.545v101.818h-622.545v-101.818z"></path>
+<path fill="none" stroke="#2e2f42" style="stroke: var(--color3, #2e2f42)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.3636" d="M1.96 29.154h42.965M1.96 15.615h42.965M1.96 2.077h42.965"></path>
+</symbol>
 </defs>
 </svg>
