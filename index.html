@@ -60,79 +60,85 @@
             </li>
           </ul>
         </address>
-        <button type="button" class="open-mob-menu-btn">
+        <button type="button" class="open-mob-menu-btn" data-menu-open>
           <svg class="mob-menu-icon" width="32" height="22">
             <use href="./images/icons.svg#icon-header-menu-burger"></use>
           </svg>
         </button>
       </div>
-      <div class="mob-menu">
-        <button type="button" class="close-mob-menu-btn">
-          <svg class="mob-close-menu-icon" width="8" height="8">
-            <use href="./images/icons.svg#icon-close-btn"></use>
-          </svg>
-        </button>
-        <ul class="mob-menu-list list">
-          <li class="mob-menu-item">
-            <a
-              href="./index.html"
-              class="mob-menu-link link mob-menu-item-active"
-              >Studio</a
-            >
-          </li>
-          <li class="mob-menu-item">
-            <a href="./portfolio.html" class="mob-menu-link link">Portfolio</a>
-          </li>
-          <li class="mob-menu-item">
-            <a href="" class="mob-menu-link link">Contacts</a>
-          </li>
-        </ul>
-        <address class="mob-menu-address">
-          <ul class="mob-menu-address-list list">
-            <li class="mob-menu-address-item">
-              <a href="tel:+110001111111" class="mob-menu-tel-link link"
-                >+11 (000) 111-11-11</a
+      <div class="mob-menu is-hidden" data-menu>
+        <div>
+          <button type="button" class="close-mob-menu-btn" data-menu-close>
+            <svg class="mob-close-menu-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-btn"></use>
+            </svg>
+          </button>
+          <ul class="mob-menu-list list">
+            <li class="mob-menu-item">
+              <a
+                href="./index.html"
+                class="mob-menu-link link mob-menu-item-active"
+                >Studio</a
               >
             </li>
-            <li class="mob-menu-address-item">
-              <a
-                href="mailto:info@devstudio.com"
-                class="mob-menu-mail-link link"
-                >info@devstudio.com</a
+            <li class="mob-menu-item">
+              <a href="./portfolio.html" class="mob-menu-link link"
+                >Portfolio</a
               >
+            </li>
+            <li class="mob-menu-item">
+              <a href="" class="mob-menu-link link">Contacts</a>
             </li>
           </ul>
-        </address>
-        <ul class="mob-menu-soc-icon-list list">
-          <li class="mob-menu-soc-icon-item">
-            <a href="" class="mob-menu-soc-icon-link link">
-              <svg class="mob-menu-soc-icon-svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mob-menu-soc-icon-item">
-            <a href="" class="mob-menu-soc-icon-link link">
-              <svg class="mob-menu-soc-icon-svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mob-menu-soc-icon-item">
-            <a href="" class="mob-menu-soc-icon-link link">
-              <svg class="mob-menu-soc-icon-svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mob-menu-soc-icon-item">
-            <a href="" class="mob-menu-soc-icon-link link">
-              <svg class="mob-menu-soc-icon-svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+        </div>
+        <div>
+          <address class="mob-menu-address">
+            <ul class="mob-menu-address-list list">
+              <li class="mob-menu-address-item">
+                <a href="tel:+110001111111" class="mob-menu-tel-link link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mob-menu-address-item">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="mob-menu-mail-link link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mob-menu-soc-icon-list list">
+            <li class="mob-menu-soc-icon-item">
+              <a href="" class="mob-menu-soc-icon-link link">
+                <svg class="mob-menu-soc-icon-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-menu-soc-icon-item">
+              <a href="" class="mob-menu-soc-icon-link link">
+                <svg class="mob-menu-soc-icon-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-menu-soc-icon-item">
+              <a href="" class="mob-menu-soc-icon-link link">
+                <svg class="mob-menu-soc-icon-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-menu-soc-icon-item">
+              <a href="" class="mob-menu-soc-icon-link link">
+                <svg class="mob-menu-soc-icon-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
@@ -650,5 +656,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
