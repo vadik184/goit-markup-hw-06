@@ -189,7 +189,7 @@ img {
 .mob-menu-soc-icon-list {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: unset;
   gap: 34px;
   margin-top: 48px;
 }
@@ -1062,6 +1062,9 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media screen and (min-width: 428px) {
+  .mob-menu-soc-icon-list {
+    gap: 56px;
+  }
   /**---------info------**/
   .container {
     max-width: 428px;
