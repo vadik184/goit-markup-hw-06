@@ -85,8 +85,6 @@ img {
   color: var(--dark);
 }
 .open-mob-menu-btn {
-  margin-left: auto;
-  margin-right: 16px;
 }
 .list {
   list-style: none;
@@ -115,6 +113,10 @@ img {
   border: none;
   background-color: transparent;
   padding: 24px 0;
+  margin-left: auto;
+}
+.mob-menu-icon {
+  stroke: rgba(46, 47, 66, 1);
 }
 .mob-menu {
   position: fixed;
