@@ -114,6 +114,7 @@ img {
   background-color: transparent;
   padding: 24px 0;
   margin-left: auto;
+  cursor: pointer;
 }
 .mob-menu-icon {
   stroke: rgba(46, 47, 66, 1);
