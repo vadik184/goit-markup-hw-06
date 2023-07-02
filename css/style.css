@@ -1062,7 +1062,9 @@ img {
   .container {
     max-width: 428px;
   }
-
+  .header-container {
+    max-width: 767px;
+  }
   .mob-menu-soc-icon-list {
     gap: 56px;
   }
