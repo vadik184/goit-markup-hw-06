@@ -116,9 +116,6 @@ img {
   background-color: transparent;
   padding: 24px 0;
 }
-.mob-menu-icon {
-  stroke: var(--dark);
-}
 .mob-menu {
   position: fixed;
   width: 100vw;
@@ -130,6 +127,9 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.mob-menu-icon {
+  stroke: var(--dark);
 }
 .close-mob-menu-btn {
   display: flex;
