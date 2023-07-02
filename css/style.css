@@ -116,6 +116,9 @@ img {
   background-color: transparent;
   padding: 24px 0;
 }
+.mob-menu-icon {
+  stroke: var(--dark);
+}
 .mob-menu {
   position: fixed;
   width: 100vw;
