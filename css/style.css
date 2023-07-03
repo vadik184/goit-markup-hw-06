@@ -390,8 +390,7 @@ img {
 }
 .container-team-subtitle-text {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 16px;
 }
 .team-title {
   font-weight: 700;
