@@ -21,7 +21,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   color: var(--text);
   background-color: var(--white-background);
 }
@@ -379,7 +379,6 @@ img {
   padding: 96px 0;
 }
 .team-item {
-  display: block;
   background-color: var(--white-background);
   flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
@@ -497,7 +496,7 @@ img {
   gap: 72px 16px;
 }
 .customers-item {
-  width: calc((100%- 16px) / 2);
+  width: calc((100% - 16px) / 2);
   height: 88px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1235,7 +1234,7 @@ img {
     gap: 72px 24px;
   }
   .customers-item {
-    width: calc((100%- 48px) / 3);
+    width: calc((100% - 48px) / 3);
   }
 
   /**------footer-------**/
